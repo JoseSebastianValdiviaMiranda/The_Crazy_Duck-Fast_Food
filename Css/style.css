@@ -1,0 +1,100 @@
+/* @font-face {
+    font-family: ;
+    src: url();
+} */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://franquiciashoy.com/img/blog/franquicias-de-comida-rapida-img-790x440-04.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+}
+.container_logo{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+}
+.container_logo .logo{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* backdrop-filter: blur(10px); */
+    box-shadow: 0 0 5px 2px #fff5,
+                0 0 5px 2px #fff5,
+                0 0 5px 2px #fff5;
+}
+.container_logo .logo img{
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    filter: drop-shadow(1px 2px 2px #000);
+    /* overflow: visible; */
+}
+.container_title{
+    /* border: 1px solid #000; */
+}
+.container_title .title{
+    /* border: 1px solid #000; */
+    padding: 5px 0;
+}
+.container_title .title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    letter-spacing: 2px;
+    /* backdrop-filter: blur(10px); */
+}
+.container_title .welcome p{
+    text-align: center;
+    padding: 5px 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-shadow: 1px 2px #000;
+}
+.menu_bar{
+    /* border: 1px solid #000; */
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    box-shadow: 0 0 2px 2px #fff5;
+}
+.menu_bar ul{
+    padding: 0;
+    display: flex;
+    justify-content:space-around;
+    height: 50px;
+}
+.menu_bar ul li{
+    list-style: none;
+    width: calc(90% / 6);
+    height: 100%;
+}
+.menu_bar ul li a{
+    display: block;
+    border: 1px solid #fff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
